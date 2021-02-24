@@ -143,6 +143,7 @@ public class MyLinkedListTest {
         Assert.assertEquals(true, result);
     }
 
+
     @Test
     public void IfStackIsCreatedShouldReturnTrue() {
         Stack<Integer> stack = new Stack<>();
@@ -171,4 +172,5 @@ public class MyLinkedListTest {
         INode peek = stack.peek();
         Assert.assertEquals(popStack, myFirstNode);
     }
+
 }
