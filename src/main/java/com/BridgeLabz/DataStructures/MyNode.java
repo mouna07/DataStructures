@@ -4,7 +4,6 @@ public class MyNode<T> {
     private T data;
     private MyNode next;
     MyNode(){}
-
     // Constructor with node fields
     public MyNode(T key) {
         this.setData(data);
